@@ -8,7 +8,7 @@ Damn Vulnerable Web Application (DVWA)
 
 Run:
 
-    $ docker run -d -p 80:8090 citizenstig/dvwa
+    $ docker run -d -P citizenstig/dvwa
 
 For more information, see: https://hub.docker.com/r/citizenstig/dvwa/
 
