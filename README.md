@@ -8,7 +8,10 @@ Damn Vulnerable Web Application (DVWA)
 
 Run:
 
-    $ docker run -d -P citizenstig/dvwa
+    $ docker run -d \
+      -P \
+      -v $(pwd)/hackable:/app/hackable \
+      citizenstig/dvwa
 
 For more information, see: https://hub.docker.com/r/citizenstig/dvwa/
 
