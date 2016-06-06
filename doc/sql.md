@@ -15,6 +15,9 @@ Paste a hash in your web browser, trying to decrypt it.
 automates the process of detecting and exploiting SQL injection flaws and
 taking over of database servers.
 
+**Warning:** You might have to replace `localhost:8090` with something else,
+depending on your setup.
+
 #### Show Databases
 
 ```
