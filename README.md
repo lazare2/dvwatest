@@ -6,10 +6,7 @@ Damn Vulnerable Web Application (DVWA)
 Run:
 
 ```
-$ docker run -d \
-  -p 8080:80 \
-  -v $(pwd)/hackable:/app/hackable \
-  citizenstig/dvwa
+$ docker run -d -p 8080:80 citizenstig/dvwa
 ```
 
 And go to: http://localhost:8080/
